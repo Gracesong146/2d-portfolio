@@ -3,7 +3,7 @@
     "title": "Hi, I'm Grace Song !!",
     "subtitle": " "
   },
-  "backgroundImage": "/map/map.jpg",
+  "backgroundImage": "./map/map.jpg",
   "section1Name": "About",
   "section2Name": "Skills",
   "section3Name": "Work Experience",

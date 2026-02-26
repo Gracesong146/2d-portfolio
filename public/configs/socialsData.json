@@ -18,6 +18,28 @@
     }
   },
   {
+    "pos": { "x": 700, "y": 250 },
+    "name": "Itch.io",
+    "description": "Here is my itch.io, where I publish my games.",
+    "link": "https://pobaeto.itch.io/",
+    "logoData": {
+      "name": "itch-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 900, "y": 250 },
+    "name": "LinkedIn",
+    "description": "Here is my LinkedIn page. I am currently looking for a job.",
+    "link": "https://www.linkedin.com/in/grace-song-ge-ya/",
+    "logoData": {
+      "name": "linkedin-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
     "pos": { "x": 1100, "y": 250 },
     "name": "Email",
     "address": "gracesong146@gmail.com",

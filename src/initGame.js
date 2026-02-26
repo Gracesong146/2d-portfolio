@@ -50,26 +50,33 @@ export default async function initGame() {
     k.loadSprite("linkedin-logo", "./logos/linkedin-logo.png");
     k.loadSprite("youtube-logo", "./logos/youtube-logo.png");
     k.loadSprite("javascript-logo", "./logos/js-logo.png");
-    k.loadSprite("react-logo", "./logos/react-logo.png");
+    // k.loadSprite("react-logo", "./logos/react-logo.png");
     k.loadSprite("postgres-logo", "./logos/postgres-logo.png");
     k.loadSprite("html-logo", "./logos/html-logo.png");
     k.loadSprite("css-logo", "./logos/css-logo.png");
     k.loadSprite("python-logo", "./logos/python-logo.png");
+    k.loadSprite("c-logo", "./logos/c-logo.png");
+    k.loadSprite("csharp-logo", "./logos/csharp-logo.png");
+    k.loadSprite("aseprite-logo", "./logos/aseprite-logo.png");
+    k.loadSprite("unity-logo", "./logos/unity-logo.png");
+    k.loadSprite("unrealengine-logo", "./logos/unrealengine-logo.png");
+    k.loadSprite("java-logo", "./logos/java-logo.png");
+    k.loadSprite("itch-logo", "./logos/itch-logo.png");
     k.loadSprite("email-logo", "./logos/email-logo.png");
-    // k.loadSprite("sonic-js", "./projects/sonic-js.png");
-    // k.loadSprite("kirby-ts", "./projects/kirby-ts.png");
-    // k.loadSprite("platformer-js", "./projects/platformer-js.png");
+    k.loadSprite("mixed-signals", "./projects/mixed-signals.png");
+    k.loadSprite("no-matter-the-distance", "./projects/no-matter-the-distance.png");
+    k.loadSprite("shiny-horror", "./projects/shiny-horror.png");
     // Import Shader
     k.loadShaderURL("tiledPattern", null, "./shaders/tiledPattern.frag");
 
     const setInitCamZoomValue = () => {
         if (k.width() < 1000) {
-            k.setCamScale(0.5);                 // new API
+            k.setCamScale(0.3);                 // new API
             store.set(cameraZoomValueAtom, 0.5);
             return;
         }
 
-        k.setCamScale(0.8);                     // new API
+        k.setCamScale(0.6);                     // new API
         store.set(cameraZoomValueAtom, 0.8);
     };
 

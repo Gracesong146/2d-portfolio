@@ -1,6 +1,6 @@
 [
   {
-    "pos": { "x": 0, "y": 0 },
+    "pos": { "x": 0, "y": -200 },
     "name": "JavaScript",
     "logoData": {
       "name": "javascript-logo",
@@ -9,11 +9,29 @@
     }
   },
   {
-    "pos": { "x": 0, "y": -200 },
-    "name": "React",
+    "pos": { "x": -200, "y": 0 },
+    "name": "Unreal Engine",
     "logoData": {
-      "name": "react-logo",
+      "name": "unrealengine-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 0, "y": 0 },
+    "name": "Java",
+    "logoData": {
+      "name": "java-logo",
       "width": 148,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": 0, "y": 200 },
+    "name": "Aseprite",
+    "logoData": {
+      "name": "aseprite-logo",
+      "width": 128,
       "height": 128
     }
   },
@@ -45,10 +63,37 @@
     }
   },
   {
+    "pos": { "x": -400, "y": 0 },
+    "name": "Unity",
+    "logoData": {
+      "name": "unity-logo",
+      "width": 140,
+      "height": 110
+    }
+  },
+  {
     "pos": { "x": -400, "y": 200 },
     "name": "Python",
     "logoData": {
       "name": "python-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": -400, "y": 400 },
+    "name": "C",
+    "logoData": {
+      "name": "c-logo",
+      "width": 128,
+      "height": 128
+    }
+  },
+  {
+    "pos": { "x": -200, "y": 400 },
+    "name": "C#",
+    "logoData": {
+      "name": "csharp-logo",
       "width": 128,
       "height": 128
     }

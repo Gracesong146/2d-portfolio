@@ -14,7 +14,7 @@
   },
   {
     "pos": { "x": 150, "y": 180 },
-    "cardHeight": 250,
+    "cardHeight": 290,
     "roleData": {
       "title": "Operations Intern",
       "description": "Built an Excel-based warehouse heatmap using SAP scan data across inbound, put away, picking, and outbound, adopted in weekly cross-functional reviews to prioritize aisle- and bin-level audits and accelerate hotspot remediation. Automated inventory workflows in Excel (VBA), trimming processing time by ~90% and improving reporting accuracy.",
@@ -26,8 +26,8 @@
     }
   },
   {
-    "pos": { "x": 150, "y": 460 },
-    "cardHeight": 250,
+    "pos": { "x": 150, "y": 500 },
+    "cardHeight": 290,
     "roleData": {
       "title": "Industrial Engineering Intern",
       "description": "Designed and built a Python LPO fungibility model to compute RTN-to-RTN exchange ratios; parallelized workloads across 12 processors to reduce runtime from ~2.5 hours to ~30 minutes. Delivered an Excel-based UI and a PyInstaller executable for non-Python users; added one-to-many and many-to-one exchanges plus donate-by-wafer and receive-by-wafer features.",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "pos": { "x": 150, "y": 740 },
+    "pos": { "x": 150, "y": 820 },
     "cardHeight": 250,
     "roleData": {
       "title": "Computer Science Teacher",

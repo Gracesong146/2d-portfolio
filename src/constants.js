@@ -1,6 +1,6 @@
 export const PALETTE = {
     color1: "#272946",
-    color2: "#aaea6c",
+    color2: "#ace8f9",
     color3: "#e7ffee"
 }
 

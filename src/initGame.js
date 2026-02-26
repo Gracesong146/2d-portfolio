@@ -66,6 +66,7 @@ export default async function initGame() {
     k.loadSprite("mixed-signals", "./projects/mixed-signals.png");
     k.loadSprite("no-matter-the-distance", "./projects/no-matter-the-distance.png");
     k.loadSprite("shiny-horror", "./projects/shiny-horror.png");
+    k.loadSprite("background-map", generalData.backgroundImage);
     // Import Shader
     k.loadShaderURL("tiledPattern", null, "./shaders/tiledPattern.frag");
 
@@ -91,24 +92,21 @@ export default async function initGame() {
         }
     });
         
+    // Tiled map background
     const tiledBackground = k.add([
-        k.uvquad(k.width(), k.height()),
-        k.shader("tiledPattern", () => ({
-            u_time: k.time() / 20,
-            u_color1: k.Color.fromHex(PALETTE.color3),
-            u_color2: k.Color.fromHex(PALETTE.color2),
-            u_speed: k.vec2(1, -1),
-            u_aspect: k.width() / k.height(),
-            u_size: 5,
-        })),
-        k.pos(0),
+        k.sprite("background-map", {
+            tiled: true,
+            width: k.width(),
+            height: k.height(),
+        }),
+        k.pos(0, 0),
         k.fixed(),
     ]);
 
     tiledBackground.onUpdate(() => {
+        // keep it filling the screen on resize
         tiledBackground.width = k.width();
         tiledBackground.height = k.height();
-        tiledBackground.uniform.u_aspect = k.width() / k.height();
     });
 
     makeSection(

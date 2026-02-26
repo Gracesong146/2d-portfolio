@@ -66,7 +66,7 @@ export default async function initGame() {
     k.loadSprite("mixed-signals", "./projects/mixed-signals.png");
     k.loadSprite("no-matter-the-distance", "./projects/no-matter-the-distance.png");
     k.loadSprite("shiny-horror", "./projects/shiny-horror.png");
-    k.loadSprite("background-map", generalData.backgroundImage);
+    k.loadSprite("background-map", "./map/map.jpg");
     // Import Shader
     k.loadShaderURL("tiledPattern", null, "./shaders/tiledPattern.frag");
 

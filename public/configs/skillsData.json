@@ -97,5 +97,14 @@
       "width": 128,
       "height": 128
     }
+  },
+  {
+    "pos": { "x": 0, "y": 400 },
+    "name": "Blender",
+    "logoData": {
+      "name": "blender-logo",
+      "width": 128,
+      "height": 128
+    }
   }
 ]

@@ -4,7 +4,7 @@
     "cardHeight": 250,
     "roleData": {
       "title": "Data Engineer (Senior Design Project)",
-      "description": "Developed an automated ETL and NLP pipeline integrating Python and LLM models to streamline clinical data extraction and submission for national PCI audits at NUHCS, targeting a 90% reduction in manual abstraction time.",
+      "description": "• Designed and built an end-to-end automated ETL pipeline to integrate clinical data from EPIC and 4D systems into REDCap for national PCI audits at NUHCS.\n• Developed SQL-based transformation workflows to standardize and map 436 audit fields, achieving 92% automation coverage and eliminating manual data abstraction for structured fields",
       "company": {
         "name": "National University Hospital",
         "startDate": "Aug 2025",
@@ -17,7 +17,7 @@
     "cardHeight": 290,
     "roleData": {
       "title": "Operations Intern",
-      "description": "Built an Excel-based warehouse heatmap using SAP scan data across inbound, put away, picking, and outbound, adopted in weekly cross-functional reviews to prioritize aisle- and bin-level audits and accelerate hotspot remediation. Automated inventory workflows in Excel (VBA), trimming processing time by ~90% and improving reporting accuracy.",
+      "description": "• Built an Excel-based warehouse heatmap using SAP scan data across inbound, put away, picking, and outbound, adopted in weekly cross-functional reviews to prioritize aisle- and bin-level audits and accelerate hotspot remediation.\n• Automated inventory workflows in Excel (VBA), trimming processing time by ~90% and improving reporting accuracy.",
       "company": {
         "name": "Schneider Electric",
         "startDate": "June 2025",
@@ -30,7 +30,7 @@
     "cardHeight": 290,
     "roleData": {
       "title": "Industrial Engineering Intern",
-      "description": "Designed and built a Python LPO fungibility model to compute RTN-to-RTN exchange ratios; parallelized workloads across 12 processors to reduce runtime from ~2.5 hours to ~30 minutes. Delivered an Excel-based UI and a PyInstaller executable for non-Python users; added one-to-many and many-to-one exchanges plus donate-by-wafer and receive-by-wafer features.",
+      "description": "• Designed and built a Python LPO fungibility model to compute RTN-to-RTN exchange ratios; parallelized workloads across 12 processors to reduce runtime from ~2.5 hours to ~30 minutes.\n• Delivered an Excel-based UI and a PyInstaller executable for non-Python users; added one-to-many and many-to-one exchanges plus donate-by-wafer and receive-by-wafer features.",
       "company": {
         "name": "GlobalFoundries",
         "startDate": "May 2024",
@@ -43,7 +43,7 @@
     "cardHeight": 250,
     "roleData": {
       "title": "Computer Science Teacher",
-      "description": "Delivered personalized Computer Science tutoring for Grades 10-12 (Python, Java); crafted individual learning plans and progress notes for parents, achieving ~2-3 grade-band improvement on average.",
+      "description": "• Delivered personalized Computer Science tutoring for Grades 10-12 (Python, Java); crafted individual learning plans and progress notes for parents, achieving ~2-3 grade-band improvement on average.",
       "company": {
         "name": "Math Vision Enrichment Centre",
         "startDate": "Jan 2024",

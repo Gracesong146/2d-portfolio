@@ -60,9 +60,11 @@ export default async function initGame() {
     k.loadSprite("aseprite-logo", "./logos/aseprite-logo.png");
     k.loadSprite("unity-logo", "./logos/unity-logo.png");
     k.loadSprite("unrealengine-logo", "./logos/unrealengine-logo.png");
+    k.loadSprite("blender-logo", "./logos/blender-logo.png");
     k.loadSprite("java-logo", "./logos/java-logo.png");
     k.loadSprite("itch-logo", "./logos/itch-logo.png");
     k.loadSprite("email-logo", "./logos/email-logo.png");
+    k.loadSprite("shift-happens", "./projects/shift-happens.png");
     k.loadSprite("mixed-signals", "./projects/mixed-signals.png");
     k.loadSprite("no-matter-the-distance", "./projects/no-matter-the-distance.png");
     k.loadSprite("shiny-horror", "./projects/shiny-horror.png");
